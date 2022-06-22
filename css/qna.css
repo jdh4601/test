@@ -1,0 +1,53 @@
+:root{
+  --white-color: #ffffff;
+  --whitegray-color: #fafcfe;
+  --green-color: #57be6c;
+  --black-color: #101010;
+}
+
+.qna {
+  display: flex;
+  background-color: var(--whitegray-color);
+  width: 80%;
+  height: 80%;
+  margin: 40px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aBox {
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.aBox button {
+  width: 500px;
+  line-height: 40px;
+  font-size: 20px;
+  border: 2px solid var(--green-color);
+  background-color: var(--white-color);
+  border-color: var(--green-color);
+  color: var(--green-color);
+}
+
+.aBox button:hover {
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+
+.progress {
+  height: 30px;
+  background-color: #ccc;
+  position: relative;
+  border-radius: 10px;
+}
+
+.progress .progress_bar {
+  position: absolute;
+  height: 100%;
+  background-color: var(--green-color);
+  border-radius: 10px;
+}
